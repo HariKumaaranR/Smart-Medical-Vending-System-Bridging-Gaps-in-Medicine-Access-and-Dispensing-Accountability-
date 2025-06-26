@@ -7,11 +7,11 @@ Here's the updated **README.md** with the development team credits added:
 An automated medicine dispensing solution that combines RFID authentication with precise servo-controlled dispensing and real-time cloud synchronization.
 
 ## Features
-- **RFID Patient Authentication**: Secure login using programmed RFID cards
-- **Automated Dispensing**: 4-slot servo-controlled mechanism with stepper motor positioning
-- **Cloud Integration**: Real-time data logging to Google Sheets
-- **User-Friendly Interface**: Tkinter-based GUI for staff control
-- **Comprehensive Logging**: Full transaction history and inventory tracking
+- RFID Patient Authentication**: Secure login using programmed RFID cards
+- Automated Dispensing**: 4-slot servo-controlled mechanism with stepper motor positioning
+- Cloud Integration**: Real-time data logging to Google Sheets
+- User-Friendly Interface**: Tkinter-based GUI for staff control
+- Comprehensive Logging**: Full transaction history and inventory tracking
 
 ## Hardware Requirements
 - Arduino Uno
