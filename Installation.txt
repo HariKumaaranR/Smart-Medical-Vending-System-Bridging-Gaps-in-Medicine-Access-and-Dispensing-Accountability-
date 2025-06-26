@@ -47,10 +47,3 @@ Issue	Solution
 Arduino not detected	Check COM port in Device Manager
 RFID read failures	Verify wiring & reboot Arduino
 Sheets API errors	Re-share spreadsheet with service account
-📜 License
-MIT License - See LICENSE
-
-📧 Contact
-For support:
-📩 your.email@example.com
-🔗 github.com/yourusername
