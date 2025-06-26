@@ -77,11 +77,16 @@ Sheets sync failure	Reauthenticate service account
 
 
 Developed by 
+
 HARIKUMAARAN R
+
 SURYA KUMAR M
+
 SHRUTHI S
+
 DHARSHINI B
-DIVYA DHARSHINI G`
+
+DIVYA DHARSHINI G
 
 
 
