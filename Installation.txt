@@ -1,0 +1,56 @@
+ Installation
+1. Clone Repository
+bash
+git clone https://github.com/yourusername/smart-medical-vending.git
+cd smart-medical-vending
+2. Install Dependencies
+bash
+pip install -r requirements.txt
+3. Hardware Setup
+Connect RFID-RC522 to Arduino:
+
+text
+RFID Pin → Arduino
+---------------
+SDA      → D10
+SCK      → D13
+MOSI     → D11
+MISO     → D12
+GND      → GND
+3.3V     → 3.3V
+Upload arduino_firmware.ino to your Arduino
+
+4. Google Sheets Setup
+Create service account & download credentials.json
+
+Share your sheet with the service account email
+
+Update config.py:
+
+python
+SPREADSHEET_ID = "your-sheet-id"
+🖥️ Usage
+bash
+python main.py
+Login Methods:
+
+Scan patient RFID card
+
+Manual login with credentials
+
+Flow:
+
+text
+Authentication → Prescription View → Dispensing → Billing
+🔧 Troubleshooting
+Issue	Solution
+Arduino not detected	Check COM port in Device Manager
+RFID read failures	Verify wiring & reboot Arduino
+Sheets API errors	Re-share spreadsheet with service account
+📜 License
+MIT License - See LICENSE
+
+📧 Contact
+For support:
+📩 your.email@example.com
+🔗 github.com/yourusername

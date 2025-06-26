@@ -1,0 +1,8 @@
+smart-medical-vending/
+├── main.py                # Entry point (unchanged)
+├── arduino_interface.py   # All Arduino communication
+├── google_sheets.py       # Google Sheets integration
+├── gui_components.py      # All Tkinter UI classes
+├── medicine_logic.py      # Business logic
+├── config.py             # Configuration constants
+└── requirements.txt      # Dependencies
