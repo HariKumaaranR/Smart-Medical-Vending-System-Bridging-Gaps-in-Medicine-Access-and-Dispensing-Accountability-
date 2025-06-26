@@ -1,7 +1,5 @@
-Here's the updated **README.md** with the development team credits added:
 
-```markdown
-# Smart Medical Vending System
+# Smart-Medical-Vending-System-Bridging-Gaps-in-Medicine-Access-and-Dispensing-Accountability
 
 ## Overview
 An automated medicine dispensing solution that combines RFID authentication with precise servo-controlled dispensing and real-time cloud synchronization.
